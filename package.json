@@ -1,0 +1,48 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "description": "api prueba 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "start": "node ./build/main.js"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.5",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^6.6.5",
+    "mongoose-smart-query": "^0.1.1",
+    "morgan": "^1.10.0",
+    "restify": "^8.6.1",
+    "restify-cookies": "^0.2.6",
+    "restify-cors-middleware2": "^2.1.2",
+    "restify-errors": "^8.0.2",
+    "restify-plugins": "^1.6.0",
+    "restify-router": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.3",
+    "@types/restify": "^8.5.5",
+    "@types/restify-errors": "^4.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "nodemon-webpack-plugin": "^4.8.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
